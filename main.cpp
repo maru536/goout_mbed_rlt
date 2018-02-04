@@ -1,4 +1,4 @@
-/* WiFi Example
+ /* WiFi Example
  * Copyright (c) 2016 ARM Limited
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,11 +50,12 @@ SpwfSAInterface wifi(MBED_CONF_APP_WIFI_TX, MBED_CONF_APP_WIFI_RX);
 #define STA_MODE 0
 #define AP_MODE 1
 
-#define WIFI_MODE STA_MODE
+#define WIFI_MODE AP_MODE
 #define MODE TEXT_MODE
 
 int main()
 {
+	printf("start main\n");
 #if MODE == AUDIO_MODE
 	VS1053 player(PA_08, PA_07, PA_06, PA_00, PA_05, PA_01, PA_02);
 	player.hardwareReset();
@@ -77,10 +78,13 @@ int main()
 	srv.listen();
 	srv.accept(&clt_sock);
 
+	printf("ap server ready\n");
+
 	//Wifi AP Mode Server recv Wifi config info
 	while (true)
 	{
 		int n = clt_sock.recv(buf, MAX_BUF_SIZE);
+		//printf("%s", buf);
 		if (n < 0)
 		{
 			clt_sock.close();
@@ -89,11 +93,13 @@ int main()
 		if (n > 0)
 		{
 			buf[n] = '\0';
+			printf("recv!\n");
+			printf("%s\n", buf);
 			clt_sock.send(buf, n);
 			break;
 		}
 	}
-
+	printf("recv data!\n");
 	//Wifi AP Mode Server response Wifi config info
 	sendMacResponse(wifi.get_mac_address(), clt_sock);
 	processWiFiJson(buf, pwd, id);

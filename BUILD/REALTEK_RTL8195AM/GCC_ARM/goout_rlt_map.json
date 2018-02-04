@@ -1,0 +1,872 @@
+[
+    {
+        "module": "AudioPlay.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1229
+        }
+    }, 
+    {
+        "module": "[fill]", 
+        "size": {
+            ".data": 10, 
+            ".bss": 67, 
+            ".text": 381
+        }
+    }, 
+    {
+        "module": "[lib]/_peripheral_mbed_gcc.a", 
+        "size": {
+            ".data": 4, 
+            ".bss": 24, 
+            ".text": 14726
+        }
+    }, 
+    {
+        "module": "[lib]/_wlan_mbed_gcc.a", 
+        "size": {
+            ".data": 6025, 
+            ".bss": 36081, 
+            ".text": 137783
+        }
+    }, 
+    {
+        "module": "[lib]/c.a", 
+        "size": {
+            ".data": 2212, 
+            ".bss": 56, 
+            ".text": 38225
+        }
+    }, 
+    {
+        "module": "[lib]/gcc.a", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 3996
+        }
+    }, 
+    {
+        "module": "[lib]/m.a", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 88
+        }
+    }, 
+    {
+        "module": "[lib]/misc", 
+        "size": {
+            ".data": 12, 
+            ".bss": 28, 
+            ".text": 236
+        }
+    }, 
+    {
+        "module": "[misc]", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1712
+        }
+    }, 
+    {
+        "module": "esp8266-driver\\ESP8266Interface.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "main.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 568, 
+            ".text": 838
+        }
+    }, 
+    {
+        "module": "mbed-os\\drivers\\InterruptIn.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 111
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\emac_lwip.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 192
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\emac_stack_lwip.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 70
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip-sys\\arch\\lwip_checksum.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 122
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip-sys\\arch\\lwip_memcpy.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 60
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip-sys\\arch\\lwip_sys_arch.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 16743, 
+            ".text": 1419
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip-sys\\lwip_random.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 8
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip-sys\\lwip_tcp_isn.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 68, 
+            ".text": 2694
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\api\\lwip_api_lib.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1018
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\api\\lwip_api_msg.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 1, 
+            ".text": 3522
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\api\\lwip_netbuf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 136
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\api\\lwip_tcpip.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 128, 
+            ".text": 385
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\ipv4\\lwip_dhcp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 59, 
+            ".text": 3946
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\ipv4\\lwip_etharp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 241, 
+            ".text": 1482
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\ipv4\\lwip_icmp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 476
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\ipv4\\lwip_igmp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 8, 
+            ".text": 634
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\ipv4\\lwip_ip4.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 6, 
+            ".text": 1120
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\ipv4\\lwip_ip4_addr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 496
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\ipv4\\lwip_ip4_frag.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 6, 
+            ".text": 1364
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_def.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 68
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_dns.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 330, 
+            ".text": 1992
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_inet_chksum.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 236
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_init.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 42
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_ip.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 24, 
+            ".text": 0
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_mem.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 60, 
+            ".text": 684
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_memp.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 19522, 
+            ".text": 386
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_netif.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 9, 
+            ".text": 500
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_pbuf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1248
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_tcp.o", 
+        "size": {
+            ".data": 2, 
+            ".bss": 23, 
+            ".text": 3240
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_tcp_in.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 52, 
+            ".text": 3576
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_tcp_out.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 2694
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_timeouts.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 12, 
+            ".text": 536
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\core\\lwip_udp.o", 
+        "size": {
+            ".data": 2, 
+            ".bss": 4, 
+            ".text": 1134
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip\\src\\netif\\lwip_ethernet.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 250
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\FEATURE_LWIP\\lwip-interface\\lwip_stack.o", 
+        "size": {
+            ".data": 72, 
+            ".bss": 340, 
+            ".text": 2405
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\NetworkInterface.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 56
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\NetworkStack.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 60, 
+            ".text": 1283
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\Socket.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 585
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\SocketAddress.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 685
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\TCPServer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 580
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\TCPSocket.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 847
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\UDPSocket.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 412
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\WiFiAccessPoint.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 50
+        }
+    }, 
+    {
+        "module": "mbed-os\\features\\netsocket\\nsapi_dns.o", 
+        "size": {
+            ".data": 85, 
+            ".bss": 0, 
+            ".text": 941
+        }
+    }, 
+    {
+        "module": "mbed-os\\hal\\mbed_pinmap_common.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 186
+        }
+    }, 
+    {
+        "module": "mbed-os\\hal\\mbed_sleep_manager.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 4
+        }
+    }, 
+    {
+        "module": "mbed-os\\hal\\mbed_ticker_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 296
+        }
+    }, 
+    {
+        "module": "mbed-os\\hal\\mbed_us_ticker_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 24, 
+            ".text": 52
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform\\mbed_alloc_wrappers.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform\\mbed_assert.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 85
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform\\mbed_board.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 130
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform\\mbed_critical.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 5, 
+            ".text": 251
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform\\mbed_error.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 1, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform\\mbed_retarget.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 266, 
+            ".text": 708
+        }
+    }, 
+    {
+        "module": "mbed-os\\platform\\mbed_wait_api_rtos.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 74
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\EventFlags.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 228
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\Mutex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 182
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\Semaphore.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 201
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\mbed_boot.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4360, 
+            ".text": 469
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\mbed_rtx_handlers.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 667
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\mbed_rtx_idle.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 0, 
+            ".text": 38
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\TARGET_M3\\TOOLCHAIN_GCC\\irq_cm3.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 144
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rt_OsEventObserver.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 0
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_delay.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 72
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_evflags.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1312
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_evr.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 198
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_kernel.o", 
+        "size": {
+            ".data": 176, 
+            ".bss": 0, 
+            ".text": 1259
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_lib.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 1620, 
+            ".text": 260
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_memory.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 246
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_mempool.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 296
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_msgqueue.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1690
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_mutex.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1084
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_semaphore.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1078
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_system.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 510
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_thread.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 2460
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\TARGET_CORTEX\\rtx5\\rtx_timer.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 1038
+        }
+    }, 
+    {
+        "module": "mbed-os\\rtos\\Thread.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 20
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\RTWInterface.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 16, 
+            ".text": 1723
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\TARGET_RTL8195A\\device\\TOOLCHAIN_GCC_ARM\\rtl8195a_startup.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 16
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\TARGET_RTL8195A\\device\\rtl8195a_init.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 248
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\flash_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 10
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\flash_ext.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 16, 
+            ".text": 708
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\log_uart_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 316
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\rtw_emac.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 20, 
+            ".text": 753
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\common\\api\\wifi\\wifi_conf.o", 
+        "size": {
+            ".data": 8, 
+            ".bss": 72, 
+            ".text": 4442
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\common\\api\\wifi\\wifi_ind.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 384, 
+            ".text": 236
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\common\\api\\wifi\\wifi_promisc.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 120, 
+            ".text": 22
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\common\\api\\wifi\\wifi_util.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 4053
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\common\\drivers\\wlan\\realtek\\src\\osdep\\lwip_intf.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 310
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\common\\network\\dhcp\\dhcps.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 8, 
+            ".text": 44
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\os\\os_dep\\device_lock.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 16, 
+            ".text": 169
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\os\\os_dep\\osdep_service.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 1440
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\os\\os_dep\\tcm_heap.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 12, 
+            ".text": 366
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\sdk\\os\\rtx2\\rtx2_service.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 20, 
+            ".text": 6679
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\serial_api.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 1968, 
+            ".text": 788
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets\\TARGET_Realtek\\TARGET_AMEBA\\us_ticker.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 36, 
+            ".text": 310
+        }
+    }, 
+    {
+        "module": "setting.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 411
+        }
+    }, 
+    {
+        "summary": {
+            "static_ram": 92120, 
+            "total_flash": 289881
+        }
+    }
+]

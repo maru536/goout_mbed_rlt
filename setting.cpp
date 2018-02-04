@@ -1,7 +1,9 @@
 #include "setting.h"
+#include <stdio.h>
 
 void sendMacResponse(const char* mac_addr, TCPSocket &socket)
 {
+	printf("MAC: %s\n", mac_addr);
 	socket.send(mac_addr, MAC_ADDR_SIZE);
 }
 

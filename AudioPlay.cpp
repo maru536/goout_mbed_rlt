@@ -3,7 +3,7 @@
 #define TTS_MODE 0
 #define GOOUT_MODE 1
 
-#define PLAY_MODE TTS_MODE
+#define PLAY_MODE GOOUT_MODE
 
 void audioPlay(VS1053 &player, TCPSocket &socket)
 {
@@ -61,7 +61,7 @@ bool reqAudio(TCPSocket &socket)
 
 	// Send a simple http request
 #if PLAY_MODE == GOOUT_MODE
-	char sbuffer[] = "GET /speech?deviceId=ggg&hl=en-us&f=12khz_8bit_mono HTTP/1.1\r\nHost: 13.124.228.81:8080\r\nContent-Type: text/html; charset=utf-8\r\n\r\n";
+	char sbuffer[] = "GET /speech?deviceId=ggg&hl=en-us&f=12khz_8bit_mono HTTP/1.1\r\nHost: 13.124.228.81:8080\r\nContent-Type: text/html; charset=utf-8\r\nCache-Control: no-cache\r\n\r\n";
 #else
 	char *sbuffer = (char*)calloc(512, sizeof(char));
 	char *text = (char*)calloc(256, sizeof(char));
